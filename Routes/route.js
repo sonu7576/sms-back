@@ -13,7 +13,7 @@ const router=new express.Router()
 router.post('/add/student',studentController.Addstudent)
 
 
-// add
+// get
 router.get('/get/students',studentController.getAllstudents)
 
 // edit student
